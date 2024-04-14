@@ -1,0 +1,109 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+
+    border: 2px solid rgb(122, 119, 119);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 320px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(122, 119, 119);
+    width: 300px;
+}
+
+#submit {
+    padding: 7px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 315px;
+}
+
+/* select {
+    padding: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(122, 119, 119);
+    width: 315px;
+} */
+
+.resultdisplay {
+    display: none;
+    max-width: 50vw;
+    font-size: 30px;
+    border: 2px solid rgb(112, 112, 244);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+#close {
+    padding: 7px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 80px;
+}
+
+
+
+.note1,
+.note2,
+.note3 {
+    position: relative;
+    width: 28px;
+    height: 17px;
+    bottom: 30px;
+    left: 275px;
+    opacity: 0;
+}
+
+
+.tooltip {
+    position: relative;
+    width: 20px;
+}
+
+/* Tooltip text */
+.tooltiptext {
+    visibility: hidden;
+    font-size: 15px;
+    background-color: #00204a;
+    width: 180px;
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 60px;
+    left: 250px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    /* background-color: blue; */
+}
